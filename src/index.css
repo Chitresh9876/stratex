@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", monospace;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0C0C27;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(133, 132, 132);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(184, 182, 182);
+}

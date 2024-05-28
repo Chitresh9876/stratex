@@ -1,0 +1,16 @@
+.movie-section{
+    background-color: black;
+    /* height: 100vh; */
+    padding: 0rem 3rem;
+}
+
+.movie-title{
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+}
+.movie-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

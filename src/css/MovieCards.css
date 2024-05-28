@@ -1,0 +1,74 @@
+.movie-cards{
+    width: 25rem;
+    height: 15rem;
+    position: relative;
+    /* background-image: linear-gradient(to right, #8e0e00b9 0%, #1f1c18 90%); */
+    background-image: url(../images/wallpaper2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.5s;
+    top: 2rem;
+    right: 2rem;
+    left: 1rem;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1.5rem;
+    /* padding-top: 2rem; */
+}
+
+.movie-cards:hover{
+    transform: scale(1.1);
+    
+}
+
+.title{
+    color: white;
+    font-size: larger;
+    font-weight: 650;
+    text-align: center;
+    padding: 4rem;
+    
+}
+
+.title-fav {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    position: relative;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+.watch{
+    border: 0px solid black;
+        border-radius: 0.2rem;
+        padding: 0.5rem 1.5rem;
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.9);
+        font-weight: 600;
+        font-size: large;
+        color: white;
+        cursor: pointer;
+    
+}
+
+.watch>a{
+    text-decoration: none;
+    color: white;
+}
+
+.heart{
+    background: transparent;
+    border: none;
+
+}
+.heart>img{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    font-weight: 900;
+}

@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    width: 95%;
+    height: 3rem;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Montserrat', sans-serif;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+}
+
+.logo, .favourite{
+ font-weight: 700;
+ text-decoration: none;
+ color: #ff0000;
+}

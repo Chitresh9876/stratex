@@ -1,0 +1,76 @@
+.hero-section-container{
+    background: url("../images/wallpaper.jpg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Montserrat", monospace;
+}
+
+.movie-container{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    color: antiquewhite;
+    width: 40%;
+}
+.movie-name{
+    font-size: xx-large;
+    font-weight: 700;
+    color: #ff0000;
+}
+.movie-description{
+    font-weight: 600;
+    font-size: larger;
+}
+.btn-container{
+    display: flex;
+    gap: 1rem;
+}
+.play-btn{
+    border: 0px solid black;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-weight: 600;
+    font-size: large;
+}
+.favourite-btn{
+    border: 0px solid black;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(128, 128, 128, 0.9);
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+
+
+.hero-effect{
+    font-size: 0.9rem;
+    color: #000000;
+    overflow: hidden;
+    text-align: justify;
+    position: relative;
+
+}
+
+.hero-effect::before {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    content: '';
+    height: 10rem;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    bottom: 0;
+}
